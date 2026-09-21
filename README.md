@@ -1,79 +1,51 @@
-<h1 align="center">Hi, I'm Nithillen 👋</h1>
+# Hi, I'm Nithillen Jayaseelan 👋
 
-<p align="center">
-  <em>Quantitative Developer · Machine Learning Engineer · Statistical Modeling</em>
-</p>
+I am a Data Science and Machine Learning M.Sc. candidate at the National University of Singapore (NUS) with a strong foundation in advanced mathematics, statistics, and software engineering. I am passionate about applying machine learning and quantitative thinking to solve complex challenges, particularly within global financial markets and automated AI systems.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Quantitative_Finance-0D47A1?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/XGBoost-189E01?style=for-the-badge&logo=xgboost&logoColor=white" />
-</p>
+My technical background spans end-to-end data pipelines, robust AI solutions, and quantitative research.
 
 ---
 
-### 🧠 About Me
+### 💻 Professional Experience
 
-I build systems at the intersection of **machine learning** and **quantitative finance**. My work focuses on applying statistical models and evolutionary algorithms to financial markets — from cointegration-based arbitrage to autonomous trading agents that learn from failure.
-
-- 🔬 **Research Interests:** Statistical Arbitrage, Mean Reversion, Evolutionary Computation, Time-Series Forecasting
-- 🛠️ **Technical Stack:** Python, XGBoost, Scikit-Learn, Statsmodels, VectorBT, asyncio
-- 📊 **Domain:** Algorithmic Trading, Resource Allocation, Biometric Authentication
-- 🎯 **Philosophy:** Build systems that are statistically rigorous, avoid look-ahead bias, and treat risk management as a first-class concern.
-
----
-
-### 🚀 Featured Projects
-
-<table>
-  <tr>
-    <td width="50%">
-      <h3>🧬 <a href="https://github.com/Nithillen/evolutionary_trading_system">Evolutionary Trading System</a></h3>
-      <p>An autonomous trading system where bots are <strong>spawned</strong>, <strong>tested</strong>, <strong>mutated</strong>, and <strong>evolved</strong> through natural selection. Implements the "House Money" rule — initial capital is secured in an append-only vault, and bots trade exclusively with generated profit.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-blue?logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/asyncio-green" />
-        <img src="https://img.shields.io/badge/OOP-blueviolet" />
-        <img src="https://img.shields.io/badge/Evolutionary_Algorithms-orange" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3>📈 <a href="https://github.com/Nithillen/pairs_trading_ml">ML-Enhanced Pairs Trading</a></h3>
-      <p>A cointegration-based statistical arbitrage strategy enhanced with <strong>XGBoost</strong> machine learning. Uses rolling Z-scores, volatility, and momentum features to predict spread convergence/divergence. Backtested with VectorBT.</p>
-      <p>
-        <img src="https://img.shields.io/badge/XGBoost-189E01?logo=xgboost&logoColor=white" />
-        <img src="https://img.shields.io/badge/Statsmodels-blue" />
-        <img src="https://img.shields.io/badge/VectorBT-green" />
-        <img src="https://img.shields.io/badge/Scikit--Learn-lightgrey" />
-      </p>
-    </td>
-  </tr>
-</table>
+* **Graduate Engineering Trainee @ Viatris** 
+  * Engineered robust data pipelines leveraging Azure Cloud Services and Oracle SQL.
+  * Designed Agentic AI workflows ("SyncAgent") for intelligent compliance document generation.
+  * Automated data migration and developed AI-powered meeting transcript automation using LLMs.
+* **Intern @ KPIT Technologies** 
+  * Developed firmware and embedded systems solutions using Python and C.
+  * Specialized in coding best practices and real-time systems hardware integration.
 
 ---
 
-### 🛠️ Tech Stack
+### 🚀 Featured GitHub Projects
 
-```text
-Languages:       Python, SQL
-ML / AI:         XGBoost, Scikit-Learn, Random Forest, Time-Series Classification
-Statistics:      Statsmodels, Augmented Dickey-Fuller, Cointegration (Engle-Granger)
-Finance:         VectorBT, Backtrader, yfinance, Alpaca API, ccxt
-Engineering:     asyncio, OOP (ABC), dataclasses, Git, GitHub Actions
-```
+* **[Evolutionary Trading System](https://github.com/Nithillen/evolutionary_trading_system)**
+  An autonomous trading system built in Python where bots are spawned, tested, mutated, and evolved through natural selection. Implements a strict "House Money" rule where initial capital is secured in an append-only vault, ensuring bots only trade with generated profit.
+
+* **[ML-Enhanced Pairs Trading](https://github.com/Nithillen/pairs_trading_ml)**
+  A cointegration-based statistical arbitrage strategy enhanced with an XGBoost classifier. Utilizes rolling Z-scores, volatility, and momentum features to predict spread convergence and divergence, built entirely without look-ahead bias.
 
 ---
 
-### 📊 GitHub Stats
+### 🔬 Quantitative Research & Applied AI
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nithillen&show_icons=true&theme=radical&hide_border=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nithillen&layout=compact&theme=radical&hide_border=true" height="165" />
-</p>
+In addition to my open-source trading systems, I have conducted extensive research and developed solutions across various engineering domains:
+
+* **5G Resource Allocation Optimization:** Applied Random Forest and XGBoost algorithms to optimize network bandwidth allocation, achieving a 0.98 R2 score in real-time deployment. *Awarded a patent for this innovation.*
+* **PPG-Based Biometric Authentication:** Conducted quantitative research on photoplethysmography (PPG) signals to develop robust statistical input-based biometric authentication models. *Published research paper detailing the methodology.*
+* **Genetic Classification Using Machine Learning:** Analyzed complex variant data from the ClinVar database using statistical methods and ML to resolve conflicting genetic classifications and enhance disease prediction models.
+* **Intelligent Medical Call Center Automation:** Engineered an end-to-end AI system using conversational chatbots and voice bots to autonomously handle complex adverse event recording.
 
 ---
 
-<p align="center">
-  <em>"The goal is not to predict the future — it's to build systems that adapt to it."</em>
-</p>
+### 🛠️ Technical Arsenal
+
+* **Languages:** Python, C, Verilog, SQL (Oracle)
+* **Machine Learning & AI:** XGBoost, Random Forest, Deep Learning, Large Language Models (LLMs), Agentic AI, NLP
+* **Data & Cloud:** Azure Cloud Services (OpenAI, Blob Storage), Google Cloud Platform (GCP)
+* **Core Skills:** Quantitative Research, System Design, Advanced Mathematics & Statistics
+
+---
+
+📫 **Get in touch:** nithillen.py@gmail.com | [LinkedIn](https://linkedin.com/in/nithillenjayaseelan)
