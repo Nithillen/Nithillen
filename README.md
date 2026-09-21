@@ -26,6 +26,9 @@ Currently based in Singapore pursuing my M.Sc. in Data Science and Machine Learn
 **[Evolutionary Trading System](https://github.com/Nithillen/evolutionary_trading_system)**
 An autonomous, object-oriented trading system built in Python that utilizes evolutionary algorithms. Trading bots are spawned, tested in the market, and mutated or terminated based on performance. Implements a rigorous "House Money" capital preservation rule where initial investments are secured in an append-only vault, ensuring active strategies risk only generated profit.
 
+**[Patient Readmission and Resource Optimization Engine](https://github.com/Nithillen/patient_readmission_engine)**
+End-to-end healthcare data science pipeline combining complex SQL data wrangling (CTEs, window functions, multi-table JOINs) with a Random Forest classifier for 30-day readmission prediction. Includes a full SHAP explainability suite with stakeholder-ready reporting for clinical decision-makers.
+
 **[ML-Enhanced Pairs Trading](https://github.com/Nithillen/pairs_trading_ml)**
 A quantitative statistical arbitrage strategy built on cointegration principles. Enhances the traditional moving-average crossover approach by integrating an XGBoost classifier. The system engineers rolling statistical features (Z-scores, volatility, momentum) to predict spread convergence and divergence, meticulously architected to prevent look-ahead bias and temporal data leakage.
 
