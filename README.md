@@ -1,51 +1,79 @@
-# Hi, I'm Nithillen Jayaseelan 👋
+# Nithillen Jayaseelan
 
-I am a Data Science and Machine Learning M.Sc. candidate at the National University of Singapore (NUS) with a strong foundation in advanced mathematics, statistics, and software engineering. I am passionate about applying machine learning and quantitative thinking to solve complex challenges, particularly within global financial markets and automated AI systems.
+Bengaluru, India | nithillen.py@gmail.com | [LinkedIn](https://linkedin.com/in/nithillenjayaseelan)
 
-My technical background spans end-to-end data pipelines, robust AI solutions, and quantitative research.
-
----
-
-### 💻 Professional Experience
-
-* **Graduate Engineering Trainee @ Viatris** 
-  * Engineered robust data pipelines leveraging Azure Cloud Services and Oracle SQL.
-  * Designed Agentic AI workflows ("SyncAgent") for intelligent compliance document generation.
-  * Automated data migration and developed AI-powered meeting transcript automation using LLMs.
-* **Intern @ KPIT Technologies** 
-  * Developed firmware and embedded systems solutions using Python and C.
-  * Specialized in coding best practices and real-time systems hardware integration.
+M.Sc. Data Science and Machine Learning candidate at the National University of Singapore (NUS) with a B.Tech in Electronics and Communication Engineering (Biomedical Specialization) from Vellore Institute of Technology. Results-driven engineer with expertise in AI/ML automation, clinical systems, quantitative modeling, IoT, and embedded systems. Proven track record of engineering end-to-end automation solutions and developing intelligent systems leveraging advanced mathematics, machine learning, and cloud infrastructure.
 
 ---
 
-### 🚀 Featured GitHub Projects
+### Professional Experience
 
-* **[Evolutionary Trading System](https://github.com/Nithillen/evolutionary_trading_system)**
-  An autonomous trading system built in Python where bots are spawned, tested, mutated, and evolved through natural selection. Implements a strict "House Money" rule where initial capital is secured in an append-only vault, ensuring bots only trade with generated profit.
+**Graduate Engineering Trainee | Viatris**
+*Oct 2025 - Jul 2026 | Clinical & Safety Domain | AI Automation*
+* DAERS Project: Engineered robust data pipelines leveraging Azure Cloud Services and Oracle SQL to automate end-to-end data migration from Excel to the Argus database, integrating intelligent compliance document generation.
+* Automated meeting transcript workflows using GPT-5.2 to generate minutes, create actionable tasks, and send personalized email notifications, significantly enhancing operational efficiency.
+* Engineered an intelligent medical call center automation system utilizing conversational chatbots and voice bots for autonomous adverse event recording and complex inquiry handling.
 
-* **[ML-Enhanced Pairs Trading](https://github.com/Nithillen/pairs_trading_ml)**
-  A cointegration-based statistical arbitrage strategy enhanced with an XGBoost classifier. Utilizes rolling Z-scores, volatility, and momentum features to predict spread convergence and divergence, built entirely without look-ahead bias.
-
----
-
-### 🔬 Quantitative Research & Applied AI
-
-In addition to my open-source trading systems, I have conducted extensive research and developed solutions across various engineering domains:
-
-* **5G Resource Allocation Optimization:** Applied Random Forest and XGBoost algorithms to optimize network bandwidth allocation, achieving a 0.98 R2 score in real-time deployment. *Awarded a patent for this innovation.*
-* **PPG-Based Biometric Authentication:** Conducted quantitative research on photoplethysmography (PPG) signals to develop robust statistical input-based biometric authentication models. *Published research paper detailing the methodology.*
-* **Genetic Classification Using Machine Learning:** Analyzed complex variant data from the ClinVar database using statistical methods and ML to resolve conflicting genetic classifications and enhance disease prediction models.
-* **Intelligent Medical Call Center Automation:** Engineered an end-to-end AI system using conversational chatbots and voice bots to autonomously handle complex adverse event recording.
+**Intern | KPIT Technologies**
+*Jan 2025 - Jul 2025 | Embedded Systems & Python*
+* Completed the comprehensive Nova Training Program, focusing on embedded systems, firmware development, and software engineering best practices.
+* Developed firmware and embedded systems solutions using Python and C, gaining hands-on experience in real-time systems and hardware integration.
 
 ---
 
-### 🛠️ Technical Arsenal
+### Featured Repositories
+
+**[Evolutionary Trading System](https://github.com/Nithillen/evolutionary_trading_system)**
+An autonomous, object-oriented trading system built in Python that utilizes evolutionary algorithms. Trading bots are spawned, tested in the market, and mutated or terminated based on performance. Implements a rigorous "House Money" capital preservation rule where initial investments are secured in an append-only vault, ensuring active strategies risk only generated profit.
+
+**[ML-Enhanced Pairs Trading](https://github.com/Nithillen/pairs_trading_ml)**
+A quantitative statistical arbitrage strategy built on cointegration principles. Enhances the traditional moving-average crossover approach by integrating an XGBoost classifier. The system engineers rolling statistical features (Z-scores, volatility, momentum) to predict spread convergence and divergence, meticulously architected to prevent look-ahead bias and temporal data leakage.
+
+---
+
+### Quantitative Research & Applied Engineering Projects
+
+**5G Resource Allocation Optimization** (Patent Obtained)
+Applied advanced mathematics, statistics, and machine learning algorithms (Random Forest, Gradient Boosting, XGBoost) to optimize network bandwidth allocation. Achieved a highly accurate 0.98 R-squared score and successfully deployed the solution with a real-time visualization dashboard. 
+
+**PPG-Based Biometric Authentication System** (Research Paper Published)
+Conducted quantitative research on photoplethysmography (PPG) signals to develop robust statistical input-based biometric authentication models. Trained and evaluated complex ML algorithms on real-world datasets to verify user identities with high accuracy.
+
+**Genetic Classification Using Machine Learning**
+Analyzed large-scale, complex variant data from the ClinVar database. Applied machine learning techniques and analytical methods to identify and resolve conflicting genetic classifications, enhancing the reliability of disease prediction models.
+
+**IoT Smart Agriculture**
+Engineered a cloud-based IoT solution integrating machine learning for automated irrigation and pest forecasting. The deployed system achieved a 30% reduction in water usage and a 25% increase in overall crop yield.
+
+---
+
+### Technical Skills
 
 * **Languages:** Python, C, Verilog, SQL (Oracle)
-* **Machine Learning & AI:** XGBoost, Random Forest, Deep Learning, Large Language Models (LLMs), Agentic AI, NLP
-* **Data & Cloud:** Azure Cloud Services (OpenAI, Blob Storage), Google Cloud Platform (GCP)
-* **Core Skills:** Quantitative Research, System Design, Advanced Mathematics & Statistics
+* **AI, ML & Automation:** Machine Learning, Deep Learning, NLP, GPT-5.2, LLMs, Agentic AI, Chatbots & Voice Bots, XGBoost, Random Forest
+* **Cloud & Databases:** Azure Cloud Services (OpenAI, Blob Storage, Document Intelligence), Google Cloud Platform (GCP)
+* **Systems & Engineering:** Quantitative Research, System Design, Embedded Systems, Real-Time Systems, IoT Architecture, Data Visualization
 
 ---
 
-📫 **Get in touch:** nithillen.py@gmail.com | [LinkedIn](https://linkedin.com/in/nithillenjayaseelan)
+### Education & Certifications
+
+**National University of Singapore (NUS)**
+M.Sc. Data Science and Machine Learning (Aug 2026 - June 2028)
+
+**Vellore Institute of Technology (VIT)**
+B.Tech Electronics and Communication Engineering, Biomedical (2021 - 2025) | CGPA: 8.8
+
+**Certifications:**
+* Google Cloud Digital Leader
+* AI & Machine Learning (Google Developers)
+* ML & Deep Learning A-Z: Python & R
+* Data Structures & Algorithms
+
+---
+
+### Leadership & Extra-Curricular
+
+* **Core Member:** IEEE EMBS
+* **Inner Core:** IEEE EDS
+* Led technical events, workshops, and mentorship initiatives.
