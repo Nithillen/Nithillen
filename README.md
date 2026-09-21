@@ -33,8 +33,12 @@ A quantitative statistical arbitrage strategy built on cointegration principles.
 
 ### Quantitative Research & Applied Engineering Projects
 
-**5G Resource Allocation Optimization** (Patent Obtained)
-Applied advanced mathematics, statistics, and machine learning algorithms (Random Forest, Gradient Boosting, XGBoost) to optimize network bandwidth allocation. Achieved a highly accurate 0.98 R-squared score and successfully deployed the solution with a real-time visualization dashboard. 
+**5G Resource Allocation Optimization** (Patent Published)
+* **Patent Title:** Predictive Resource Allocation in 5G Networks Using Machine Learning
+* **Application Number:** 202541116411 (Indian Patent Office)
+* **Verification:** [Verify on IPR Search Portal](https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/ApplicationStatus)
+* **Inventors:** Dr. S Nandakumar, Mr. Vishwageth M S, Mr. Srivatsa S A, Mr. Nithillen Jayaseelan
+* **Details:** Applied advanced mathematics, statistics, and machine learning algorithms (Random Forest, Gradient Boosting, XGBoost) to optimize network bandwidth allocation. Achieved a highly accurate 0.98 R-squared score and successfully deployed the solution with a real-time visualization dashboard. 
 
 **PPG-Based Biometric Authentication System** (Research Paper Published)
 Conducted quantitative research on photoplethysmography (PPG) signals to develop robust statistical input-based biometric authentication models. Trained and evaluated complex ML algorithms on real-world datasets to verify user identities with high accuracy.
