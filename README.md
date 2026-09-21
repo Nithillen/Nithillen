@@ -1,8 +1,8 @@
 # Nithillen Jayaseelan
 
-Bengaluru, India | nithillen.py@gmail.com | [LinkedIn](https://linkedin.com/in/nithillenjayaseelan)
+Singapore | nithillen.py@gmail.com | [LinkedIn](https://linkedin.com/in/nithillenjayaseelan)
 
-M.Sc. Data Science and Machine Learning candidate at the National University of Singapore (NUS) with a B.Tech in Electronics and Communication Engineering (Biomedical Specialization) from Vellore Institute of Technology. Results-driven engineer with expertise in AI/ML automation, clinical systems, quantitative modeling, IoT, and embedded systems. Proven track record of engineering end-to-end automation solutions and developing intelligent systems leveraging advanced mathematics, machine learning, and cloud infrastructure.
+Currently based in Singapore pursuing my M.Sc. in Data Science and Machine Learning at the National University of Singapore (NUS). I hold a B.Tech in Electronics and Communication Engineering (Biomedical Specialization) from Vellore Institute of Technology. I am a results-driven engineer with expertise in AI/ML automation, clinical systems, quantitative modeling, IoT, and embedded systems. Proven track record of engineering end-to-end automation solutions and developing intelligent systems leveraging advanced mathematics, machine learning, and cloud infrastructure.
 
 ---
 
