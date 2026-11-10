@@ -194,7 +194,7 @@ def generate_hero():
 </g>
 """
     content = render_svg(W, h, body, "Nithillen Jayaseelan - Quantitative Developer and Machine Learning Researcher at NUS")
-    write_card("hero.svg", content)
+    write_card("hero-banner.svg", content)
 
 # ==============================================================================
 # 2. DOMAIN TILES (3-COLUMN ROW)
