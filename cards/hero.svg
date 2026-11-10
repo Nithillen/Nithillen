@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880.000" height="402" viewBox="0 0 880.000 402" role="img" aria-label="Nithillen Jayaseelan - Quantitative Developer and Machine Learning Researcher at NUS">
+<title>Nithillen Jayaseelan - Quantitative Developer and Machine Learning Researcher at NUS</title>
+<style>
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.85); }
+}
+@keyframes shine {
+  0% { transform: translateX(-600px); }
+  40%, 100% { transform: translateX(900px); }
+}
+@keyframes sheen {
+  0% { transform: translateX(-300px) skewX(-20deg); }
+  25%, 100% { transform: translateX(500px) skewX(-20deg); }
+}
+@keyframes nudge {
+  0%, 100% { transform: none; }
+  50% { transform: translate(3px, -3px); }
+}
+.r { opacity: 0; animation: rise 0.8s cubic-bezier(0.16, 1, 0.3, 1) both; transform-box: fill-box; }
+.f { opacity: 0; animation: fade 0.9s ease-out both; }
+.live { animation: pulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.nu { transform-box: fill-box; animation: nudge 2s ease-in-out infinite; }
+.sh { animation: sheen 6s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .r, .f, .live, .nu, .sh { animation: none !important; opacity: 1 !important; transform: none !important; }
+}
+</style>
+
+<defs>
+  <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0a0f1d"/>
+    <stop offset="50%" stop-color="#0e172a"/>
+    <stop offset="100%" stop-color="#080c16"/>
+  </linearGradient>
+  <linearGradient id="hero-border" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+    <stop offset="50%" stop-color="#1e293b" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.4"/>
+  </linearGradient>
+  <linearGradient id="name-shimmer" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="40%" stop-color="#ffffff"/>
+    <stop offset="50%" stop-color="#38bdf8"/>
+    <stop offset="60%" stop-color="#ffffff"/>
+    <stop offset="100%" stop-color="#ffffff"/>
+    <animateTransform attributeName="gradientTransform" type="translate"
+      values="-700 0; 700 0; 700 0" keyTimes="0; 0.55; 1" dur="6.5s" begin="1.2s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="grid-glow" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.08"/>
+    <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="hero-clip">
+    <rect width="880" height="390" rx="14"/>
+  </clipPath>
+</defs>
+
+<!-- Card Surface -->
+<rect width="880" height="390" rx="14" fill="url(#hero-bg)"/>
+<rect width="880" height="390" rx="14" fill="none" stroke="url(#hero-border)" stroke-width="1.2"/>
+
+<!-- Decorative Tech Geometry -->
+<g clip-path="url(#hero-clip)">
+  <circle cx="800" cy="100" r="220" fill="url(#grid-glow)"/>
+  <circle cx="800" cy="100" r="160" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,6" opacity="0.6"/>
+  <circle cx="800" cy="100" r="90" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="2,4" opacity="0.4"/>
+  <!-- Minimalist Constellation Dots -->
+  <circle cx="740" cy="60" r="3" fill="#38bdf8" opacity="0.7"/>
+  <circle cx="830" cy="130" r="2.5" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="770" cy="170" r="2" fill="#818cf8" opacity="0.5"/>
+  <line x1="740" y1="60" x2="830" y2="130" stroke="#1e293b" stroke-width="1" opacity="0.4"/>
+  <line x1="830" y1="130" x2="770" y2="170" stroke="#1e293b" stroke-width="1" opacity="0.4"/>
+</g>
+
+<!-- Live Status Pill -->
+<g class="f" style="animation-delay: 0.1s">
+  <rect x="42" y="38" width="8" height="8" rx="2" fill="#38bdf8" class="live"/>
+  <text x="58" y="46" font-family="'SF Mono', Monaco, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" letter-spacing="1.4" fill="#64748b">M.SC. DATA SCIENCE &amp; MACHINE LEARNING · NUS SINGAPORE</text>
+</g>
+
+<!-- Main Headline Name -->
+<text class="r" style="animation-delay: 0.25s" x="40" y="142" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700" letter-spacing="-1.5" fill="#f8fafc">Nithillen</text>
+<text class="r" style="animation-delay: 0.4s" x="40" y="224" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="82" letter-spacing="-1.5" fill="url(#name-shimmer)">Jayaseelan</text>
+
+<!-- Subtitle / Bio -->
+<g class="r" style="animation-delay: 0.6s">
+  <text x="42" y="272" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#94a8b8">Quantitative Developer &amp; Machine Learning Researcher</text>
+  <text x="42" y="298" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#64748b">Focusing on statistical arbitrage, evolutionary algorithms, and intelligent clinical AI systems.</text>
+</g>
+
+<!-- Footer Meta & Links -->
+<g class="f" style="animation-delay: 0.85s">
+  <line x1="42" y1="334" x2="838" y2="334" stroke="#1e293b" stroke-width="1"/>
+  
+  <text x="42" y="362" font-family="'SF Mono', Monaco, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#64748b">SINGAPORE</text>
+  <text x="142" y="362" font-family="'SF Mono', Monaco, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#334155">·</text>
+  <text x="162" y="362" font-family="'SF Mono', Monaco, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#64748b">5G PATENT AUTHOR</text>
+  <text x="312" y="362" font-family="'SF Mono', Monaco, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#334155">·</text>
+  <text x="332" y="362" font-family="'SF Mono', Monaco, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#64748b">B.TECH ECE (8.8 CGPA)</text>
+
+  <g transform="translate(680, 362)">
+    <text x="0" y="0" font-family="'SF Mono', Monaco, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#94a8b8">linkedin / github</text>
+    <text class="nu" x="125" y="0" font-family="'SF Mono', Monaco, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#38bdf8">↗</text>
+  </g>
+</g>
+
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="293.333" height="222" viewBox="0 0 293.333 222" role="img" aria-label="ENTERPRISE AI &amp; IOT: Production Scale">
+<title>ENTERPRISE AI &amp; IOT: Production Scale</title>
+<style>
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.85); }
+}
+@keyframes shine {
+  0% { transform: translateX(-600px); }
+  40%, 100% { transform: translateX(900px); }
+}
+@keyframes sheen {
+  0% { transform: translateX(-300px) skewX(-20deg); }
+  25%, 100% { transform: translateX(500px) skewX(-20deg); }
+}
+@keyframes nudge {
+  0%, 100% { transform: none; }
+  50% { transform: translate(3px, -3px); }
+}
+.r { opacity: 0; animation: rise 0.8s cubic-bezier(0.16, 1, 0.3, 1) both; transform-box: fill-box; }
+.f { opacity: 0; animation: fade 0.9s ease-out both; }
+.live { animation: pulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.nu { transform-box: fill-box; animation: nudge 2s ease-in-out infinite; }
+.sh { animation: sheen 6s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .r, .f, .live, .nu, .sh { animation: none !important; opacity: 1 !important; transform: none !important; }
+}
+</style>
+<g transform="translate(8.000, 0)">
+<defs>
+  <linearGradient id="bg-2" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#081a16"/>
+    <stop offset="100%" stop-color="#040e0b"/>
+  </linearGradient>
+  <clipPath id="card-clip-2">
+    <rect width="285.333" height="210" rx="12"/>
+  </clipPath>
+  <linearGradient id="sheen-2" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#ffffff" stop-opacity="0.08"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+
+<!-- Card Surface -->
+<g clip-path="url(#card-clip-2)">
+  <rect width="285.333" height="210" rx="12" fill="url(#bg-2)"/>
+  <rect width="285.333" height="210" rx="12" fill="none" stroke="#1e293b" stroke-width="1"/>
+  <!-- Ambient glow circle -->
+  <circle cx="255.33333333333331" cy="30" r="80" fill="#10b981" opacity="0.06"/>
+  <!-- Animated Sheen -->
+  <rect class="sh" style="animation-delay: 1.80s" x="0" y="0" width="100" height="210" fill="url(#sheen-2)"/>
+</g>
+
+<!-- Category Label -->
+<g class="r" style="animation-delay: 0.80s">
+  <rect x="22" y="24" width="6" height="6" rx="1.5" fill="#10b981"/>
+  <text x="34" y="30" font-family="'SF Mono', Monaco, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="1.2" fill="#10b981">ENTERPRISE AI &amp; IOT</text>
+  <text class="nu" x="253.33333333333331" y="30" font-family="'SF Mono', Monaco, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#64748b">↗</text>
+</g>
+
+<!-- Primary Metric / Headline -->
+<g class="r" style="animation-delay: 1.00s">
+  <text x="22" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" fill="#f8fafc">Production <tspan font-style="italic" font-size="34" fill="#10b981">Scale</tspan></text>
+</g>
+
+<!-- Description Blurb -->
+<text class="r" style="animation-delay: 1.20s" x="22" y="148" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#94a8b8">SyncAgent compliance workflows,</text><text class="r" style="animation-delay: 1.28s" x="22" y="168" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#94a8b8">LLM transcript automation &amp;</text><text class="r" style="animation-delay: 1.36s" x="22" y="188" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#94a8b8">smart IoT telemetry systems.</text>
+</g>
+</svg>
